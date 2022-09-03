@@ -1,0 +1,38 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+header {
+  background-color: #d34040;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .card-container {
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  background-color:#f1f1f1;
+  margin: 10px;
+  padding: 10px
+}
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+footer {
+  background-color: #d34040;
+  color: #fff;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
