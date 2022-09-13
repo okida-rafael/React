@@ -1,0 +1,25 @@
+/* rgb(249, 219, 121) */
+
+header {
+
+    background-color: rgb(249, 219, 121) ;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 50px;
+}
+header nav a{
+    margin: 10px  ;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}

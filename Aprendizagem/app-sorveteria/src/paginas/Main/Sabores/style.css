@@ -1,0 +1,35 @@
+.sabores-banner{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/assets/banner-sabores.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.sabores-banner h1{
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 1px 5px 5px #000;
+}
+.sabores-container{
+    margin: 0 auto;
+    text-align: center;
+}
+.sabores-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    max-width: 800px;
+    justify-content: space-evenly;
+}
+.sabores-card-content{
+    box-shadow: 0px 0px 11px 1px #000;
+    width: 240px;
+    height: 300px;
+    margin: 10px;
+}
+.sabores-card-content img{
+    height: 150px;
+}

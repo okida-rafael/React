@@ -1,0 +1,29 @@
+.secao-eventos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.secao-eventos div{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 5px;
+    padding: 5px;
+}
+.secao-eventos img{
+    width: calc(50%);
+}
+.secao-eventos h2{
+    font-size: 36px;
+    margin: 5px auto 0;
+}
+.secao-eventos span{
+    font-size: 22px;
+    margin: 1px auto 20px;
+}
+.secao-eventos p{
+    font-size: 18px;
+    margin: 20px auto;
+    text-align: justify;
+}

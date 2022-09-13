@@ -1,0 +1,33 @@
+.sobre-banner{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+
+}
+.sobre-banner h1{
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px #000;
+}
+.sobre-img{
+    display: flex;
+}
+.sobre-img img{
+    width: 50%;
+    object-fit: cover;
+}
+.sobre-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    max-width: 1024px;
+    margin: 0 auto;
+}
