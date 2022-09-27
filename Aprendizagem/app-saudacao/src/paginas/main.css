@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.sec-main{
+    text-align: center;
+    margin: 50px auto 0;
+    border: 1px solid gray;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 1px black;
+    height: 120px;
+}
+h1, p, span{
+    margin: 5px;
+    padding: 5px;
+}
+
+span{
+    font-weight: bold;
+}
