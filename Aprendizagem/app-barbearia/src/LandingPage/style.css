@@ -1,0 +1,74 @@
+.modo-claro {
+    background-color: #fff;
+    color: #000;
+}
+.modo-escuro{
+    background-color: #000;
+    color: #fff;
+}
+.logo {
+    height: 100px;
+}
+/* Header */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botao {
+    width: 100px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.botao button {
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid #B2987D;
+}
+.botao button img {
+    height: 100%;
+}
+.botao button span {
+    font-weight: bold;
+}
+
+/* Banner */
+
+.banner-sec {
+    height: 341px;
+    background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
+    background-image: url('/public/assets/banner-barbearia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+
+.texto-sec {
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+.texto-sec h1 {
+    margin: 10px auto;
+}
+.texto-destaque {
+    font-weight: bold;
+}
+.texto-sec p {
+    margin: 10px auto;
+}
+.texto-sec p.assinatura {
+        font-family: Great Vibes;
+        font-size: 32px;
+        color:  #B2987D;
+        margin: 30px auto;
+    }
