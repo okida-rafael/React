@@ -1,0 +1,72 @@
+.light-card {
+    background-color: #f6f8fc;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #edecec;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.dark-card {
+    background-color: #393838;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff0d;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.dark-card:hover {
+    background-color: #feb633;
+}
+.light-card:hover {
+    background-color: #feb633;
+}
+.card-conteudo {
+    width: 250px;
+    text-align: justify;
+}
+.card-conteudo h3 {
+    padding: 5px;
+    margin: auto;
+}
+.card-conteudo p {
+    padding: 5px;
+    margin: 3px auto;
+    font-size: 12px;
+
+}
+.light-titulo {
+    color: #32333c;
+}
+.light-paragrafo {
+    color: #8a8fa3;
+}
+.dark-titulo {
+    color: #fff;
+}
+.dark-paragrafo { 
+    color: #9f9f9f;
+}
+
+
+/* Resolução até 768px */
+
+@media (max-width: 768px) {
+
+.light-card {
+    width: 100%;
+    margin: 0 0 0 10px;
+    justify-content: flex-start;
+}
+.dark-card {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    justify-content: flex-start;
+}
+.card-conteudo {
+    width: 80%;
+}
+
+}

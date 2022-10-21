@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.light-mode {
+    background-color: #fff;
+}
+.dark-mode {
+    background-color: #252525;
+}
+.item-topo {
+    margin: 10px;
+}
+.item-topo button {
+    border-radius: 50%;
+    display: flex;
+}
+.light-btn{
+    background-color: #fff;
+    border: 2px solid #747272;
+}
+.dark-btn{
+    background-color: #252525;
+    border: 2px solid #fff;
+}
+
+.item-topo img {
+    max-height: 35px;
+    padding: 5px;
+}
